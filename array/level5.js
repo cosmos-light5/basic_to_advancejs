@@ -31,3 +31,29 @@ const output02 = arr.map((item) =>{
 })
 
 console.log(output02)
+
+//Q2. use filter to get only those items which are greater than 2
+// expected output: [5,4]
+
+const output3 = arr.filter((item) =>{
+    if (item > 2){
+        return item
+    }
+    })
+
+console.log(output3)
+
+
+// undefined output
+const output5 = arr.map((item) =>{
+    if (item > 2){
+        return item
+    }})
+
+console.log(output2)
+const output2 = arr.filter((item) => {
+    if(item > 2){
+        return item 
+    }
+})
+console.log(output2); 
