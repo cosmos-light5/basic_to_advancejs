@@ -4,3 +4,15 @@ const arr2 = ['shyam', 99,88,35]
 // Q1. create an array which contains names of students only
 
 // hint use typeof operator
+
+
+const names = arr.concat(arr2).filter((item) => {
+    if(typeof(item)=== 'string') {
+        return item
+    }
+    // yedi item to typeof 'string' ho vaney matra return garne
+    if (typeof (item) === 'string'){
+        return item
+    }
+});
+console.log(names)
