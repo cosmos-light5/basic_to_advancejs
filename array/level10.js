@@ -16,3 +16,16 @@ const names = arr.concat(arr2).filter((item) => {
     }
 });
 console.log(names)
+
+// Q2. calculate the total score of ram and shyam 
+
+let sum = 0
+array = [...arr,...arr2]
+array.forEach((item) => {
+    // yedi item typeof 'number' ho vaney sum ma add garne
+if (typeof (item) === 'number'){
+        sum+=item
+    }
+
+});
+console.log(sum)
