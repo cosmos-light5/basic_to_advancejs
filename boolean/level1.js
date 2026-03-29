@@ -9,3 +9,7 @@ console.log(a>b)
 
 /// Q2. check if  10 * a and check if it is greater or euqals than b
 
+console.log(10 * a >= b);
+
+console.log(a*10 >= b)
+
