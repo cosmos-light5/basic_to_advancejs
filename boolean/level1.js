@@ -13,3 +13,6 @@ console.log(10 * a >= b);
 
 console.log(a*10 >= b)
 
+// Q3. check if b is divisible by a
+let mod = b%a;
+console.log(mod === 0)
