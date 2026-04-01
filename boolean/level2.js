@@ -21,12 +21,13 @@ console.log(a<b || a*3>b)
 console.log(b-a===a)
 
 //Check if a + b is divisible by 3.
-
+console.log((a+b)%3===0)
 
 //Check if a squared is greater than b.
-
+console.log(a**2>b)
 
 //Check if b is divisible by both a and 5.
-
+console.log(b%a===0 && b%5===0)
 
 //Check if a is not divisible by 3.
+console.log(a%3!==0)
