@@ -12,13 +12,13 @@ console.log(a*5<b*2)
 console.log(b/a>=2)
 
 //Check if a is an even number AND b is an even number.
-
+console.log(a%2===0 && b%2===0)
 
 //Check if a is less than b OR a * 3 is greater than b.
-
+console.log(a<b || a*3>b)
 
 //Check if the difference between b and a is equal to a.
-
+console.log(b-a===a)
 
 //Check if a + b is divisible by 3.
 
